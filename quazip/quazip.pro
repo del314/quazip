@@ -1,3 +1,6 @@
+CONFIG += conan_basic_setup
+include(../../../conanbuildinfo.pri)
+
 TEMPLATE = lib
 CONFIG += qt warn_on
 QT -= gui

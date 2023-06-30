@@ -1,3 +1,6 @@
+CONFIG += conan_basic_setup
+include(../../../conanbuildinfo.pri)
+
 TEMPLATE = app
 QT -= gui
 QT += network
